@@ -1,0 +1,19 @@
+
+#signUp-Form{
+    border-style: double;
+}
+
+
+.signUp{
+    border-style:solid double;
+    text-align: center;
+
+}
+
+.review{
+    visibility: hidden;
+}
+
+#newMemberBtn{
+    visibility: hidden;
+}

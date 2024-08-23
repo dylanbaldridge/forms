@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formpage</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+  
+    <div class="form-div">
+     <div id="newMemberDiv">
+        <form id="signUp-Form">
+
+          <fieldset class="form">       
+           <legend>Sign up</legend>
+
+           <p class=>
+              <label for="email" id="label-email">Email:</label>
+              <input type="email" id="email" required name="email" name="signUp">
+            </p>
+    
+            <p class=>
+              <label for="password" id="label-lastName">Password:</label>
+              <input type="text" id="password" required minlength="3" maxlength="20" name="signUp">
+            </p>
+
+            <p class=>
+                <label for="lastName" id="label-lastName">Password Confirm:</label>
+                <input type="text" id="passwordConfirm" required minlength="3" maxlength="20" name="signUp">
+              </p>
+
+           
+           
+            <button type="button" id="submit">Sign-up</button>
+            <input type="reset" id="clear">
+
+    </fieldset>
+</form>
+</div>
+<br>
+
+
+
+
+
+
+
+<button id="memberBtn" onclick="memberLogin()">Already a Member</button>
+<button id="newMemberBtn" onclick="newMmemberLogin()">New Member</button>
+
+
+
+
+
+
+<div class="review" id="reviewDiv">
+<form>
+    <fieldset>
+        <legend>Sign In</legend>
+
+        <p class="form" >
+            <label for="firstName" id="label-firstName">User Name:</label>
+            <input type="text" id="firstName" required minlength="2" maxlength="20" name="firstName">
+          </p>
+  
+          <p class="form">
+            <label for="lastName" id="label-lastName">Password:</label>
+            <input type="text" id="lastName" required minlength="3" maxlength="20" name="lastName">
+          </p>
+
+        
+             
+          <button type="button" id="submit">Sign-in</button>
+          <button type="button" id="submit">Sign-up</button>
+        
+    </fieldset>
+
+</form>
+</div>
+ </div>
+
+    <div>
+        <p id="answers"></p>
+
+    </div>
+<script src="form.js"></script>
+</body>
+</html>
